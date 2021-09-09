@@ -55,8 +55,8 @@
 		</div>
 
 		<div title="fullscreen" id="fullscreen" onclick="toggleFullScreen()">
-			<i class="material-icons" style="font-size:36px" <input type="button" value="fullscreen">
-				fullscreen</i>
+			<i class="material-icons" style="font-size:40px" <input type="button" value="fullscreen">
+				Full Screen</i>
 		</div>
 
 		<div title="Current date and time" id="clock">
@@ -111,7 +111,7 @@
 	</div>
 
 
-	<!-- The Logout (Windows Button) Part -->
+	<!-- The Startmenu -->
 	<div id="logOut">
 		<div id="logout-btn">
 
@@ -119,9 +119,13 @@
 			<br />
 			<br />
 
+			<button onclick="alert('HtmlOS is Web-based operating system made using HTML, CSS, Javascript and JQuery \nv0.7.1 Beta M1')">About HtmlOS</button>
+			<br />
+			<br />
+
 			</a>
 			<br />
-			<button onClick="$('#logOut').fadeOut();localStorage.clear();alert('success');window.location.reload();">
+			<button onClick="$('#logOut').fadeOut();localStorage.clear();alert('You are now Logged Out. The system will now reboot to Login Page.');window.location.reload();">
 				Logout</button>
 			<br />
 		</div>
@@ -133,21 +137,27 @@
 		<ul>
 			<li onclick="location.reload();">
 				Reboot (Does not Logout)
+				
 			</li>
+			<ul>
+				<li onclick="">
+					More options Coming Soon!
+					
+				</li>
 			<li id="blaah">
 				Change Background
 				<span style="float: right;"><i class="fa fa-arrow-right"></i></span>
 				<ul id="sub-menu">
 					<li onclick="changeBg(1)">Snow (Default)</li>
 					<li onclick="changeBg(2)">Mountain</li>
-					<li onclick="changeBg(3)">Global</li>
+					<li onclick="changeBg(3)">Snow 2</li>
 					<li onclick="changeBg(4)">Glow</li>
-					<li onclick="changeBg(5)">Green Leaf</li>
+					<li onclick="changeBg(5)">Sunrise</li>
 					<li onclick="changeBg(6)">None</li>
 				</ul>
 			</li>
 			<li
-				onclick="alert('HtmlOS is Web-based operating system made using HTML, CSS, Javascript and JQuery \nv0.7.1 Beta Pre-M1')">
+				onclick="alert('HtmlOS is Web-based operating system made using HTML, CSS, Javascript and JQuery \nv0.7.1 Beta M1')">
 				About HtmlOS
 			</li>
 

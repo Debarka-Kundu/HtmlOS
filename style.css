@@ -37,7 +37,7 @@ input[type='time']::-webkit-inner-spin-button {
 	display: none;
 }
 
-/* Starting Windows */
+/* Starting HtmlOS */
 #starting-win {
 	position: fixed;
 	background: #000;
@@ -553,7 +553,7 @@ Bottom StartBar Part ...
 	background: rgba(0, 0,0, 0.85);
 }
 
-/* Windows icon on the left side */
+/* HtmlOS icon on the left side */
 #start-bar .win-icon {
 	position: absolute;
 	height: 100%;
@@ -596,7 +596,7 @@ Bottom StartBar Part ...
 }
 
 
-/* Windows clock on the right side */
+/* HtmlOS clock on the right side */
 #clock {
 	position: absolute;
 	text-align: center;
@@ -617,14 +617,14 @@ Bottom StartBar Part ...
 	cursor: default;
 }
 
-/* Logout and Cancel options on click on windows button */
+/* HtmlOS Startmenu */
 #logOut {
 	display: none;
 	position: fixed;
 	top: 65%;
 	left: 20;
-	height: 28%;
-	width: 20%;
+	height: 31%;
+	width: 15%;
 	background: rgba(0, 0, 0, 0.8);
 	z-index: 999;
 }
