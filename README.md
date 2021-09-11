@@ -4,6 +4,8 @@ HtmlOS is Web-based operating system made using HTML, CSS, Javascript and PHP.
 
 Starting the OS in Computer and Tablet expirence is good but not on phone.
 
+A lite version of this os can be found at https://github.com/Debarka-Kundu/HtmlOS-Lite
+
 Current version is v0.7.1 Beta M1
 
 Change Log in v0.7.1 Beta M1:
