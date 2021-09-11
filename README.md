@@ -24,5 +24,5 @@ Change Log in release v0.7.1 Beta M1:
 2. Added some new wallpapers
 3. Added About HtmlOS Button in Start Menu
 4. Updated Desktop Context Menu
-5. Updated Start Menu sizemail
+5. Updated Start Menu size
 6. Updated Bing App now it supports some websites
