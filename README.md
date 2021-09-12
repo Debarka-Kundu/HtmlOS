@@ -10,13 +10,14 @@ Current release version is v0.7.1 Beta M1
 
 Current source code version is v0.7.1 Beta Pre-M2
 
-Change Log in source code v0.7.1 Beta M1:
+Change Log in source code v0.7.1 Beta Pre-M2:
 1. Removed some wallpapers
 2. Added some new wallpapers
 3. Added Profile Picture in Desktop and Start Menu
-4. Removed About HtmlOS in the Start Menu
+4. Removed "About HtmlOS" in the Start Menu
 5. Added Round/Circle Icons
-6. Added Blank color wallpapers
+6. Added more Blank color wallpapers
+7. Added "This is a beta version of HtmlOS" everywhere!
 
 Change Log in source code v0.7.1 Beta M1:
 1. Removed some wallpapers
