@@ -618,6 +618,9 @@ Bottom StartBar Part ...
 }
 
 /* HtmlOS Startmenu */
+img {
+	border-radius: 50%;
+  }
 #logOut {
 	display: none;
 	position: fixed;

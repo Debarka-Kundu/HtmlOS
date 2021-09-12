@@ -16,6 +16,7 @@
 	<link rel="stylesheet" href="css/todo.css" />
 </head>
 
+
 <body class="disable-select">
 	<div id="starting-win">
 		<!-- <div style="width:100%; height:100%; text-align:center; background:black;" id="black-screen"></div> -->
@@ -29,12 +30,16 @@
 		<span class="sr-only">Loading...</span>
 	</div>
 
+	
+
+	<strong>This is a beta version of HtmlOS</strong>
+
 	<div id="main" contextmenu="alert('Not Allowed, Sorry!')">
 		<!-- Office -->
 		<div title="" class="desktop-item"
 			ondblclick="$('#tab-O').show(); $('.desktop-item').css('background-color','transparent');"
 			onmouseover="hoveredItem(this)" onmouseout="hoveredOut(this)" onclick="selectedItem(this)">
-			<img src="" alt="" />
+			<img src="img/avatar.png" alt="" />
 			<p id="name"></p>
 		</div>
 
@@ -99,7 +104,7 @@
 			Bing <i class="fa fa-times" onclick="$('#tab-todo').hide();"></i>
 		</div>
 		<div class="tab-middle-chats">
-			<iframe class="resp2-iframe" src="https://bing.com/"></iframe>
+			<iframe class="resp2-iframe" src="apps\setings\home.html"></iframe>
 		</div>
 
 
@@ -112,16 +117,16 @@
 
 
 	<!-- The Startmenu -->
+
 	<div id="logOut">
 		<div id="logout-btn">
+
+			<img src="img/avatar.png" alt="Avatar">
 
 			<button onclick="javascript:self.close()">Shutdown (Does not Logout)</button>
 			<br />
 			<br />
 
-			<button onclick="alert('HtmlOS is Web-based operating system made using HTML, CSS, Javascript and JQuery \nv0.7.1 Beta M1')">About HtmlOS</button>
-			<br />
-			<br />
 
 			</a>
 			<br />
@@ -142,6 +147,9 @@
 			<ul>
 				<li onclick="">
 					More options Coming Soon!
+
+					<li onclick="">
+					 This is a Beta version of HtmlOS
 					
 				</li>
 			<li id="blaah">
@@ -150,18 +158,24 @@
 				<ul id="sub-menu">
 					<li onclick="changeBg(1)">Snow (Default)</li>
 					<li onclick="changeBg(2)">Mountain</li>
-					<li onclick="changeBg(3)">Snow 2</li>
-					<li onclick="changeBg(4)">Glow</li>
-					<li onclick="changeBg(5)">Sunrise</li>
-					<li onclick="changeBg(6)">None</li>
+					<li onclick="changeBg(3)">Auroua</li>
+					<li onclick="">This wallpaper is coming soon!</li>
+					<li onclick="">This wallpaper is coming soon!</li>
+					<li onclick="">This wallpaper is coming soon!</li>
+					<li onclick="">This wallpaper is coming soon!</li>
+					<li onclick="changeBg(4)">Blue</li>
+					<li onclick="changeBg(5)">Purple</li>
+					<li onclick="changeBg(6)">Black</li>
+					<li onclick="changeBg(7)">Yellow</li>
+					<li onclick="changeBg(8)">Brown</li>
+					<li onclick="changeBg(9)">White</li>
 				</ul>
 			</li>
 			<li
-				onclick="alert('HtmlOS is Web-based operating system made using HTML, CSS, Javascript and JQuery \nv0.7.1 Beta M1')">
+				onclick="alert('HtmlOS is Web-based operating system made using HTML, CSS, Javascript and JQuery \nv0.7.1 Beta Pre-M2 \nThis is a Beta version of HtmlOS')">
 				About HtmlOS
 			</li>
-
-		</ul>
+			<strong>This is a beta version of HtmlOS</strong>
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
