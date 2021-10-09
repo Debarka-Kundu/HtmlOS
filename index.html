@@ -22,17 +22,13 @@
 		<!-- <div style="width:100%; height:100%; text-align:center; background:black;" id="black-screen"></div> -->
 		<img src="img/icon_windows_blue.png" alt="Starting HtmlOS" /><br />
 		<div class="ring">
-			<div class="indicator-1  indeterminate-ring"></div>
+			<img src="img/startup.gif" alt="Startup" style="width:48px;height:48px;">
 		</div>
 	</div>
 	<div id="loader">
 		<i class="fa fa-cog fa-spin fa-3x fa-fw" style="color: rgba(162, 162, 162, 0.5)"></i>
 		<span class="sr-only">Loading...</span>
 	</div>
-
-	
-
-	<strong>This is a beta version of HtmlOS</strong>
 
 	<div id="main" contextmenu="alert('Not Allowed, Sorry!')">
 		<!-- Office -->
@@ -56,12 +52,7 @@
 	</div>
 
 	<div id="start-bar">
-		<div title="Option to logout or close the tab" class="win-icon" onclick="$('#logOut').toggle().fadein(5000);">
-		</div>
-
-		<div title="fullscreen" id="fullscreen" onclick="toggleFullScreen()">
-			<i class="material-icons" style="font-size:40px" <input type="button" value="fullscreen">
-				Full Screen</i>
+		<div title="Option to logout or close the tab" class="win-icon" onclick="$('#logOut').toggle().fadein(1000000000);">
 		</div>
 
 		<div title="Current date and time" id="clock">
@@ -101,7 +92,7 @@
 
 	<div id="tab-todo">
 		<div id="tab-todo-header" class="tab-header">
-			Bing <i class="fa fa-times" onclick="$('#tab-todo').hide();"></i>
+			Settings <i class="fa fa-times" onclick="$('#tab-todo').hide();"></i>
 		</div>
 		<div class="tab-middle-chats">
 			<iframe class="resp2-iframe" src="apps\setings\home.html"></iframe>
@@ -123,16 +114,9 @@
 
 			<img src="img/avatar.png" alt="Avatar">
 
-			<button onclick="javascript:self.close()">Shutdown (Does not Logout)</button>
-			<br />
-			<br />
-
-
-			</a>
-			<br />
-			<button onClick="$('#logOut').fadeOut();localStorage.clear();alert('You are now Logged Out. The system will now reboot to Login Page.');window.location.reload();">
-				Logout</button>
-			<br />
+			<button onclick="javascript:self.close()">Shutdown</button>
+			<button onclick="$('#logOut').fadeOut();localStorage.clear();alert('You are now Logged Out. The system will now reboot to Login Page.');window.location.reload();">Logout</button>
+			<button onclick="window.location.reload();">Reboot</button>
 		</div>
 
 	</div>
@@ -141,16 +125,10 @@
 	<div class="hide" id="body-rmenu">
 		<ul>
 			<li onclick="location.reload();">
-				Reboot (Does not Logout)
-				
-			</li>
-			<ul>
-				<li onclick="">
-					More options Coming Soon!
-
-					<li onclick="">
-					 This is a Beta version of HtmlOS
-					
+				Reboot
+			
+				<li onclick="$('#logOut').fadeOut();localStorage.clear();alert('You are now Logged Out. The system will now reboot to Login Page.');window.location.reload();">
+					Logout
 				</li>
 			<li id="blaah">
 				Change Background
@@ -159,10 +137,10 @@
 					<li onclick="changeBg(1)">Snow (Default)</li>
 					<li onclick="changeBg(2)">Mountain</li>
 					<li onclick="changeBg(3)">Auroua</li>
-					<li onclick="">This wallpaper is coming soon!</li>
-					<li onclick="">This wallpaper is coming soon!</li>
-					<li onclick="">This wallpaper is coming soon!</li>
-					<li onclick="">This wallpaper is coming soon!</li>
+					<li onclick="changeBg(9)"></li>Glow
+					<li onclick="changeBg(10)">Sunrise</li>
+					<li onclick="changeBg(11)">Heme Dark</li>
+					<li onclick="changeBg(12)">Heme Light</li>
 					<li onclick="changeBg(4)">Blue</li>
 					<li onclick="changeBg(5)">Purple</li>
 					<li onclick="changeBg(6)">Black</li>
@@ -172,10 +150,9 @@
 				</ul>
 			</li>
 			<li
-				onclick="alert('HtmlOS is Web-based operating system made using HTML, CSS, Javascript and JQuery \nv0.7.1 Beta Pre-M2 \nThis is a Beta version of HtmlOS')">
+				onclick="alert('HtmlOS is Web-based operating system made using HTML, CSS, Javascript and PHP \nv0.7.1 Beta M2')">
 				About HtmlOS
 			</li>
-			<strong>This is a beta version of HtmlOS</strong>
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>

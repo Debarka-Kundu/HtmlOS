@@ -624,10 +624,10 @@ img {
 #logOut {
 	display: none;
 	position: fixed;
-	top: 65%;
-	left: 20;
-	height: 31%;
-	width: 15%;
+	top: -5%;
+	left: 0;
+	height: 100%;
+	width: 100%;
 	background: rgba(0, 0, 0, 0.8);
 	z-index: 999;
 }
