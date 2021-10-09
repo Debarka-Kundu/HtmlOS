@@ -6,9 +6,21 @@ Starting the OS in Computer and Tablet expirence is good but not on phone.
 
 A lite version of this os can be found at https://github.com/Debarka-Kundu/HtmlOS-Lite
 
-Current release version is v0.7.1 Beta M1
+Current release version is v0.7.1 Beta M2
 
-Current source code version is v0.7.1 Beta Pre-M2
+Current source code version is v0.7.1 Beta M2
+
+Change Log in release v0.7.1 Beta M2:
+
+1. Added some new Wallpapers
+2. Removed "This is a beta version of HtmlOS" everywhere!
+3. Made the Start Menu fullscreen
+
+Change Log in source code release v0.7.1 Beta M2:
+
+1. Added some new Wallpapers
+2. Removed "This is a beta version of HtmlOS" everywhere!
+3. Made the Start Menu fullscreen
 
 Change Log in source code v0.7.1 Beta Pre-M2:
 1. Removed some wallpapers
